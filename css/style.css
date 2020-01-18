@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Arvo-Bold';
+    src: url('../fonts/Arvo-Bold.eot');
+    src: url('../fonts/Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arvo-Bold.woff2') format('woff2'),
+    url('../fonts/Arvo-Bold.woff') format('woff'),
+    url('../fonts/Arvo-Bold.ttf') format('truetype'),
+    url('../fonts/Arvo-Bold.svg#Arvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo.eot');
+    src: url('../fonts/Arvo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arvo.woff2') format('woff2'),
+    url('../fonts/Arvo.woff') format('woff'),
+    url('../fonts/Arvo.ttf') format('truetype'),
+    url('../fonts/Arvo.svg#Arvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArvoRegular';
+    src: url('../fonts/ArvoRegular.eot');
+    src: url('../fonts/ArvoRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ArvoRegular.woff2') format('woff2'),
+    url('../fonts/ArvoRegular.woff') format('woff'),
+    url('../fonts/ArvoRegular.ttf') format('truetype'),
+    url('../fonts/ArvoRegular.svg#ArvoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+}
+
+body {
+    background-color: #3f0002;
+    background-image: url("../images/header_background.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 100% auto;
+
+
+}
+
+.header {
+    border-top: 40px solid #af2024;
+    margin-bottom: 19px;
+
+}
+
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: auto;
+    max-width: 962px;
+}
+
+.central-block {
+    max-width: 710px;
+    margin: auto;
+    /*margin-top: 21px;*/
+    position: relative;
+    top:36px;
+    z-index: 1;
+}
+
+.central-block__title {
+    background-color: #98161b;
+    padding: 27px 18px;
+}
+
+h2 {
+    font-family: 'Arvo-Bold';
+    color: white;
+    font-size: 20px;
+}
+
+.central-block__cont {
+    padding: 63px 74px;
+    padding-bottom: 125px;
+    background-color: white;
+}
+
+.central-block__video {
+    width: 100%;
+    height: 346px;
+    background-color: #e7e7e7;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.central-block__video:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-left: 46px solid #98161b;
+    border-bottom: 24px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -20px;
+
+}
+
+h3 {
+    font-family: 'Arvo-Bold';
+    color: #98161b;
+    font-size: 13px;
+}
+
+h3 span {
+    font-family: 'ArvoRegular';
+    color: #7d7d7d;
+}
+
+h3:after {
+    content: ". . . . . . . . .";
+    display: block;
+    margin-top: 12px;
+}
+
+.central-block__text {
+    font-family: 'ArvoRegular';
+    color: #98161b;
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+.link_1 {
+    position: fixed;
+    right: 0;
+    top: 262px;
+    z-index: 2;
+}
+
+.link_2 {
+    position: fixed;
+    right: 0;
+    top: 311px;
+    z-index: 2;
+}
+
+footer {
+    height: 454px;
+    background-color: black;
+}
