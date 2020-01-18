@@ -141,6 +141,7 @@ h3:after {
     color: #98161b;
     font-size: 12px;
     margin-top: 18px;
+
 }
 
 .link_1 {
@@ -159,5 +160,5 @@ h3:after {
 
 footer {
     height: 454px;
-    background-color: yellow;
+    background-color: black;
 }
